@@ -1,6 +1,6 @@
 FROM eclipse-temurin:11-jdk
 
-EXPOSE 7070
+EXPOSE 8080
 
 ADD target/spring-boot-docker.jar spring-boot-docker.jar
 
